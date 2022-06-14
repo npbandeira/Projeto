@@ -1,0 +1,72 @@
+
+######## TAG <a></a> ############ 
+    <a href="pagina2.html">
+        Abrir página 2
+    </a> <br>
+
+
+    <!-- Link para um número de telefone -->
+    <a href="tel:+5521995566889">
+        +55 21 99556 - 6889
+    </a>
+    <br>
+    <!-- Link para um email -->
+    <a href="mailto:suporte@exemplo.com">
+        Enviar email
+    </a>
+    <br>
+    <!-- Âncora para um elemento da própria página -->
+    <a href="#contado">
+        Contato
+    </a>
+    <br>
+    <!-- Link para um site externo que abrirá em uma nova guia -->
+    <a href="https://www.mercadolivre.com.br/" target="_blank">
+        Site do mercado livre
+    </a>
+    
+
+
+
+###############################  TAG <IMG src="" alt="" *title=""> #####################################
+
+    <!-- Imagem do mesmo diretório que o projeto e na mesma pasta que o arquivo que a exibe -->
+<img src="computador.jpg" alt="Notebook Lenovo Ideapad S145" title="Notebook Lenovo">
+
+<!-- Imagem do mesmo diretório que o projeto porém em uma subpasta -->
+<img src="assets/computador.jpg" alt="Notebook Lenovo Ideapad S145" title="Notebook Lenovo">
+
+<!-- Imagem de uma url externa -->
+<img src="https://http2.mlstatic.com/D_NQ_NP_785711-MLA40805775472_022020-O.webp" alt="Notebook Lenovo Ideapad S145" title="Notebook Lenovo">
+
+
+
+############################## TAG <spam></spam> #########################################
+
+Como vimos <span> não possui aparência visual, porém mais a frente quando você estudar CSS ela poderá ser estilizada. 
+
+<div>
+    <h3>
+        <span>Notebook Lenovo Ideapad</span> S145 8ª Intel Core I5 8GB 1TB HD 15,6" W10 Prata
+    </h3>
+
+    <p>
+        Com o Notebook da Lenovo você terá um notebook de <span>última geração</span>, prático e <span>veloz</span>, com excelente capacidade de <span>armazenamento</span>, design inovador e exclusivo, além de você estar sempre conectado com estilo. Sua tela de 15.6" oferece.
+    </p>
+</div>
+
+
+
+
+############################## TAG <iframe> </iframe> ###############################################
+
+A tag iframe incorpora o conteúdo de uma página externa no nosso site.
+
+alguns sites bloqueiam os iframes, ou disponibiliza pela proprietária.
+
+ <div>
+      <h3>Endereço</h3>
+
+      <p>Rua Joaquim Gadelha, 118, Santo agostinho , Manaus - Am</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.0031227398874!2d-60.06893290564512!3d-3.0913336602534986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c10340ac80f5f%3A0x133ee98b73e6bd72!2sR.%20Joaquim%20Gadelha%2C%20118%20-%20Santo%20Agostinho%2C%20Manaus%20-%20AM%2C%2069036-560!5e0!3m2!1spt-BR!2sbr!4v1655174390688!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
